@@ -1,0 +1,192 @@
+.integration {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.integration > h2 {
+    margin-bottom: 50px;
+}
+
+.integration-list > ul {
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    justify-content: space-between;
+}
+
+.integration-list > ul > li > ul > li {
+    margin-bottom: 20px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.integration-list > ul > li > ul > li:hover, .integration-list > ul > li > ul > li:active {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: unset;
+}
+
+.integration-facebook {
+    width: 104px;
+    height: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -35px -63px;
+}
+
+.integration-vk {
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+    margin-right: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -35px -109px;
+}
+
+.integration-telegram {
+    display: inline-block;
+    width: 27px;
+    height: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -85px -108px;
+}
+
+.integration-instagram {
+    width: 101px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -35px -145px;
+}
+
+.integration-mailchimp {
+    width: 112px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -386px -58px;
+}
+
+.integration-send {
+    width: 124px;
+    height: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -386px -108px;
+}
+
+.integration-uni {
+    width: 130px;
+    height: 26px;
+    background-image: url("../../../data/logos.png");
+    background-position: -386px -145px;
+}
+
+.integration-salebot {
+    width: 54px;
+    height: 29px;
+    background-image: url("../../../data/logos.png");
+    background-position: -721px -58px;
+}
+
+.integration-wazzup {
+    width: 90px;
+    height: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -721px -108px;
+}
+
+.integration-pact {
+    width: 102px;
+    height: 29px;
+    background-image: url("../../../data/logos.png");
+    background-position: -721px -146px;
+}
+
+.integration-pbx {
+    width: 30px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -1028px -58px;
+}
+
+.integration-sipuni {
+    width: 54px;
+    height: 34px;
+    background-image: url("../../../data/logos.png");
+    background-position: -1028px -97px;
+}
+
+.integration-mango {
+    width: 96px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -1027px -143px;
+}
+
+.integration-dog {
+    width: 117px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -34px -267px;
+}
+
+.integration-house {
+    width: 163px;
+    height: 25px;
+    background-image: url("../../../data/logos.png");
+    background-position: -386px -269px;
+}
+
+.integration-power {
+    width: 113px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -721px -267px;
+}
+
+.integration-1c {
+    width: 54px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -1027px -267px;
+}
+
+.integration-tinkoff {
+    width: 150px;
+    height: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -35px -389px;
+}
+
+.integration-kassa {
+    width: 108px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -34px -429px;
+}
+
+.integration-center {
+    width: 164px;
+    height: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -387px -389px;
+}
+
+.integration-smsru {
+    width: 103px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -387px -429px;
+}
+
+.integration-yandex {
+    width: 64px;
+    height: 25px;
+    background-image: url("../../../data/logos.png");
+    background-position: -721px -388px;
+}
+
+.integration-google {
+    width: 30px;
+    height: 30px;
+    background-image: url("../../../data/logos.png");
+    background-position: -721px -429px;
+}

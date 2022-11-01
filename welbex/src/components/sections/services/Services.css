@@ -1,0 +1,99 @@
+.services {
+    margin-top: 150px;
+}
+
+.services > h2 {
+    margin-bottom: 50px;
+}
+
+.services-about {
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+
+.services-about h2 {
+    width: 322px;
+    margin-right: 166px;
+}
+
+.services-list ul {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(3, 264px);
+    grid-row-gap: 30px;
+    justify-content: space-between;
+}
+
+.services-list ul li {
+    position: relative;
+    padding: 20px 30px 20px 20px;
+    background: linear-gradient(162.2deg, rgba(255, 246, 233, 0.1) -1.42%, rgba(26, 29, 35, 0.1) 25.01%, rgba(26, 29, 35, 0.1) 50.31%, rgba(26, 29, 35, 0.2) 75.65%, rgba(26, 29, 35, 0.2) 97.87%);
+    border: 1px solid #25262C;
+    backdrop-filter: blur(15px);
+}
+
+.services-list ul li:hover .icon {
+    height: 0;
+    margin-bottom: 0;
+    transition: 1s;
+}
+
+.services-list ul li:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 360px;
+    text-align: center;
+    background-color: #4077F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.services-list ul li:hover:after {
+    transition: 1s;
+    content: "Заказать услуги";
+    width: 360px;
+    padding: 21px 0;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.icon.services-list-licence {
+    background-position: -420px -60px;
+}
+
+.icon.services-list-key {
+    background-position: -510px -60px;
+}
+
+.icon.services-list-audit {
+    background-position: -600px -60px;
+}
+
+.icon.services-list-help {
+    background-position: -420px -150px;
+}
+
+.icon.services-list-individual {
+    background-position: -510px -150px;
+}
+
+.icon.services-list-widget {
+    background-position: -600px -150px;
+}
+
+.icon.services-list-education {
+    background-position: -420px -240px;
+}
+
+.icon.services-list-report {
+    background-position: -510px -240px;
+}
+
+.icon.services-list-integration {
+    background-position: -600px -240px;
+}

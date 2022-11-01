@@ -1,0 +1,39 @@
+.social-links{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.main-footer .social-links{
+    width: 100px;
+    margin: 20px 0 20px auto;
+}
+.main-header .social-links{
+    width: 100px;
+}
+.social-link-telegram{
+    width: 18px;
+    height: 14px;
+    margin: 6px;
+    background-image: url("./telegram.svg");
+}
+.social-link-telegram:hover{
+    background-image: url("./telegram_h.svg");
+}
+.social-link-phone{
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+    background-image: url("./phone.svg");
+}
+.social-link-phone:hover{
+    background-image: url("./phone_h.svg");
+}
+.social-link-viber{
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+    background-image: url("./viber.svg");
+}
+.social-link-viber:hover{
+    background-image: url("./viber_h.svg");
+}

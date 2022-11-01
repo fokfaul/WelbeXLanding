@@ -1,0 +1,29 @@
+.access {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.access-flex {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 378px;
+}
+
+.access-description h2 {
+    margin-bottom: 30px;
+    margin-right: 98px;
+}
+
+.access-description p {
+    width: 280px;
+}
+
+.access-description p:not(:last-child), .access-list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.access-list {
+    margin-bottom: 40px;
+}

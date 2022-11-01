@@ -1,0 +1,111 @@
+.widgets {
+    margin-top: 170px;
+    margin-bottom: 150px;
+}
+
+.widgets-about {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.widgets-about h2 {
+    width: 293px;
+    margin-right: 193px;
+    margin-bottom: 50px;
+}
+
+.widgets-offers {
+    display: grid;
+    grid-template-columns: auto 359px;
+    border: 1px solid #25262C;
+    backdrop-filter: blur(7.5px);
+}
+
+.widgets-offers-description {
+    padding-top: 59px;
+    padding-left: 30px;
+}
+
+.widgets-offers-opportunities {
+    padding-left: 37px;
+    margin-bottom: 160px;
+}
+
+.widgets-offers-opportunities ul {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 113px;
+}
+
+.widgets-offers-opportunities ul li {
+    margin-right: 50px;
+}
+
+.widgets-offers-description ul li:first-child {
+    margin-bottom: 10px;
+}
+
+.widgets-offers-free {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 30px 20px 50px;
+}
+
+.widgets-offers-free-about {
+    width: 310px;
+    margin-right: 70px;
+}
+.widgets-offers-free-get{
+    margin-top: 84px;
+}
+
+.widgets-offers-set ul li {
+    position: relative;
+    padding-top: 28px;
+    padding-left: 80px;
+    padding-bottom: 28px;
+    background: linear-gradient(152.66deg, rgba(26, 29, 35, 0.1) -0.56%, rgba(26, 29, 35, 0.1) 30.32%, rgba(26, 29, 35, 0.1) 59.86%, rgba(26, 29, 35, 0.2) 89.45%, rgba(26, 29, 35, 0.2) 115.41%);
+    backdrop-filter: blur(7.5px);
+    opacity: 0.7;
+    cursor: pointer;
+}
+.widgets-offers-set ul li.selected{
+    background: linear-gradient(95.49deg, rgba(255, 246, 233, 0.1) 8.22%, rgba(26, 29, 35, 0.1) 75.4%);
+    opacity: unset;
+}
+.widgets-offers-set ul li:before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 30px;
+    top: 24px;
+}
+.widgets-offers-set ul li.icon-widget-yandex:before{
+    background: url("img/yandex.png") center no-repeat;
+}
+.widgets-offers-set ul li.icon-widget-google:before{
+    background: url("img/google-drive.png") center no-repeat;
+}
+.widgets-offers-set ul li.icon-widget-people:before{
+    background: url("img/people.png") center no-repeat;
+}
+.widgets-offers-set ul li.icon-widget-clock:before{
+    background: url("img/clock.png") center no-repeat;
+}
+.widgets-offers-set ul li.icon-widget-history:before{
+    background: url("img/history.png") center no-repeat;
+}
+.widgets-offers-set ul li.icon-widget-sync:before{
+    background: url("img/synchronization.png") center no-repeat;
+}
+.widgets-offers-set ul li.icon-widget-asana:before{
+    background: url("img/asana.png") center no-repeat;
+}
+.widgets-offers-set ul li.icon-widget-telegram:before{
+    background: url("img/telegram.png") center no-repeat;
+    top: 20px;
+}

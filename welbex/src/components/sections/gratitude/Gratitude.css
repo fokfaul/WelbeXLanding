@@ -1,0 +1,94 @@
+.gratitude {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gratitude-list {
+    display: grid;
+    grid-template-columns: auto 640px;
+}
+
+.gratitude-list-view {
+    padding-right: 40px;
+}
+
+.gratitude-list-view h2 {
+    margin-bottom: 10px;
+}
+
+.gratitude-list-view h2 + p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #656566;
+}
+
+.gratitude-list-view p + p {
+    margin-bottom: 40px;
+    line-height: 26px;
+}
+
+.gratitude-list-view p + a {
+    font-weight: 500;
+    color: #4077F3;
+    cursor: pointer;
+}
+
+.gratitude-list-view p + a:hover {
+    color: #FFFFFF;
+}
+
+.gratitude-list-selector ul {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px;
+}
+
+.gratitude-list-selector ul li {
+    display: -webkit-flex;
+    display: flex;
+    background: rgba(14, 16, 20, 0.6);
+    border: 1px solid #25262C;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.gratitude-list-selector ul li.selected {
+    background: linear-gradient(95.49deg, rgba(255, 246, 233, 0.1) 8.22%, rgba(26, 29, 35, 0.1) 75.4%);
+    border: unset;
+}
+
+.gratitude-list-selector ul div {
+    display: inline-block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.7;
+}
+
+.gratitude-list-selector ul li:hover div, .gratitude-list-selector ul .selected div {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: unset;
+}
+
+.gratitude-list-selector ul .sendpulse div {
+    width: 124px;
+    height: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -386px -108px;
+}
+
+.gratitude-list-selector ul .smscenter div {
+    width: 164px;
+    height: 20px;
+    background-image: url("../../../data/logos.png");
+    background-position: -387px -389px;
+}
+
+.gratitude-list-selector ul .filtron div {
+    width: 145px;
+    height: 15px;
+    background-image: url("./filtron.png");
+}

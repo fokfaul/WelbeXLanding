@@ -1,0 +1,53 @@
+.info{
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    padding-top: 94px;
+    padding-bottom: 70px;
+}
+.info h1{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 400;
+}
+.info h1 span{
+    font-weight: 900;
+}
+.info h3 span{
+    text-transform: uppercase;
+}
+.info-left{
+    margin-right: 452px;
+}
+.info-left p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.info-right{
+    text-align: right;
+}
+.info-right>h3{
+    margin-bottom: 40px;
+}
+.info-right ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    list-style: none;
+    margin: 0 0 60px;
+}
+.info-right ul li:nth-child(2n+1) {
+    margin-right: 30px;
+}
+.info-right ul li:nth-child(n+3) {
+    margin-top: 30px;
+}
+.info-right ul h3{
+    margin-bottom: 6px;
+}
+.info .polyhedron{
+    position: absolute;
+    top: -35px;
+    left: 310px;
+}

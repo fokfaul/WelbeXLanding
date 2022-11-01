@@ -1,0 +1,119 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.App {
+    min-width: 1440px;
+    background: #0E1014;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.App h1, .App h2, .App h3 {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.App h1 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.App section > h1 {
+    margin-bottom: 70px;
+}
+
+.App h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+
+.App h3 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.App ul{
+    padding: 0;
+    list-style: none;
+}
+
+.App span {
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 245px;
+    padding: 21px 15px;
+    text-align: center;
+    background-color: #4077F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn>*{
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    box-shadow: 0 0 40px 6px rgba(64, 119, 243, 0.3);
+}
+
+.btn:active {
+    background-color: rgba(64, 119, 243, 0.8);
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    background: url("./data/icons.png") no-repeat;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background: url("./data/icons.png") no-repeat;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.icon>*{
+  width: 100%;
+  height: 100%;
+}
+.list-line li{
+    position: relative;
+    padding-left: 30px;
+}
+.list-line li:before {
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    left: 0;
+    top: 10px;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+}
+.video-btn-play{
+    width: 42px;
+    height: 42px;
+    border-radius: 22px;
+    border: 1px solid #E4E5EA;
+    background: url("data/play.png") center no-repeat;
+}
+.hover .video-btn-play, li:hover .video-btn-play{
+    width: 44px;
+    height: 44px;
+    background-color: #4077F3;
+    border: none;
+    box-shadow: 0 4px 30px -5px rgba(180, 200, 247, 0.5), inset 0 4px 67px rgba(255, 255, 255, 0.25);
+}

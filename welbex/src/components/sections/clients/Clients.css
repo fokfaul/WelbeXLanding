@@ -1,0 +1,69 @@
+.clients{
+    margin-bottom: 150px;
+}
+.clients-about {
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+.clients-about h2 {
+    width: 415px;
+    margin-right: 98px;
+}
+.clients-list ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+.clients-list ul li:nth-child(n+5){
+    margin-top: 30px;
+}
+.icon-circle.clients-list-cleaning {
+    background-position: -60px -60px;
+}
+.icon-circle.clients-list-realty {
+    background-position: -140px -60px;
+}
+.icon-circle.clients-list-sport {
+    background-position: -220px -60px;
+}
+.icon-circle.clients-list-legal {
+    background-position: -300px -60px;
+}
+.icon-circle.clients-list-consulting {
+    background-position: -60px -140px;
+}
+.icon-circle.clients-list-education {
+    background-position: -140px -140px;
+}
+.icon-circle.clients-list-build {
+    background-position: -220px -140px;
+}
+.icon-circle.clients-list-b2b {
+    background-position: -300px -140px;
+}
+.icon-circle.clients-list-logistic {
+    background-position: -60px -220px;
+}
+.icon-circle.clients-list-sell {
+    background-position: -140px -220px;
+}
+.icon-circle.clients-list-transport {
+    background-position: -220px -220px;
+}
+.icon-circle.clients-list-hr {
+    background-position: -300px -220px;
+}
+.icon-circle.clients-list-marketing {
+    background-position: -60px -300px;
+}
+.icon-circle.clients-list-production {
+    background-position: -140px -300px;
+}
+.icon-circle.clients-list-finance {
+    background-position: -220px -300px;
+}
+.icon-circle.clients-list-it {
+    background-position: -300px -300px;
+}

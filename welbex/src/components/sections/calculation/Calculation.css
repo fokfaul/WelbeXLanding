@@ -1,0 +1,67 @@
+.calculation {
+    display: grid;
+    grid-template-columns: 490px auto;
+    grid-template-rows: auto auto;
+    padding-top: 150px;
+}
+
+.calculation h1 {
+    grid-column: 1/3;
+}
+.calculation-info{
+    margin-right: 130px;
+    margin-bottom: 21px;
+}
+
+.calculation-bonus h3{
+    margin-bottom: 30px;
+}
+
+.calculation-bonus ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.calculation-bonus ul li:nth-child(n+3) {
+    margin-top: 10px;
+}
+.calculation-form ul{
+    margin-bottom: 40px;
+}
+.calculation-form li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 9px 10px;
+    border: 0.5px solid #25262C;
+    backdrop-filter: blur(15px);
+}
+.calculation-form li.selected{
+    background: #4077F3;
+}
+.calculation-form ul li:nth-child(n+2){
+    margin-left: 20px;
+}
+.calculation .polyhedron img{
+    position: absolute;
+    left: -81px;
+    top: 40px;
+}
+.calculation-form .min-icon{
+    position: relative;
+    padding: 27px 30px 29px 69px;
+}
+.calculation-form .min-icon:before {
+    content: "";
+    position: absolute;
+    left: 32px;
+}
+.min-icon.widget:before{
+    background: url("widget.png") center no-repeat;
+    width: 19px;
+    height: 19px;
+}
+.min-icon.discount:before{
+    background: url("discount.png") center no-repeat;
+    width: 20px;
+    height: 14px;
+    top: 29px;
+}

@@ -1,0 +1,48 @@
+.main-header{
+    padding-top: 58px;
+}
+.header-top{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+}
+.header-logo{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    margin-right: 50px;
+}
+.main-menu{
+    margin-right: 140px;
+}
+.main-menu ul {
+    display: -webkit-flex;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu ul li:nth-child(n+1){
+    margin-left: 30px;
+}
+.header-contacts{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+.header-contacts p{
+    margin-right: 40px;
+}
+.header-bottom{
+    width: 165px;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 12px;
+}

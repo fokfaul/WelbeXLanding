@@ -1,0 +1,16 @@
+.about{
+    margin-top: 150px;
+}
+.about>h2{
+    width: 389px;
+    margin-bottom: 50px;
+}
+.about-figure ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    list-style: none;
+}
+.about-figure ul h1{
+    margin-bottom: 5px;
+}

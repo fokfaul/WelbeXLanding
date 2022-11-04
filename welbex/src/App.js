@@ -17,6 +17,7 @@ import {Case} from "./components/sections/case/Case";
 import {Gratitude} from "./components/sections/gratitude/Gratitude";
 import {FAQ} from "./components/sections/faq/FAQ";
 import {Access} from "./components/sections/access/Access";
+import {Back} from "./components/back/Back";
 
 function App() {
     return (
@@ -39,6 +40,7 @@ function App() {
             <FAQ/>
             <Access/>
             <Footer/>
+            <Back/>
         </div>
     );
 }

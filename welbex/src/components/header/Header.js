@@ -23,12 +23,16 @@ export const Header = () => {
                         </ul>
                     </nav>
                     <div className="header-contacts">
-                        <p>+7 495 471-41-63</p>
+                        <p>+7 495 471-41-63</p>
                         <Social/>
                     </div>
                 </div>
                 <div className="header-bottom">
                     <p>крупный интегратор AmoCRM в Росcии и ещё 8 странах</p>
+                </div>
+                <div className="lights">
+                    <div className="header-light-1"/>
+                    <div className="header-light-2"/>
                 </div>
             </header>
         </Container>

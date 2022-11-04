@@ -1,7 +1,8 @@
-.main-header{
+.main-header {
     padding-top: 58px;
 }
-.header-top{
+
+.header-top {
     display: -webkit-flex;
     display: flex;
     align-items: center;
@@ -11,7 +12,8 @@
     font-weight: 500;
     line-height: 19px;
 }
-.header-logo{
+
+.header-logo {
     display: -webkit-flex;
     display: flex;
     align-items: center;
@@ -19,9 +21,11 @@
     width: 140px;
     margin-right: 50px;
 }
-.main-menu{
+
+.main-menu {
     margin-right: 140px;
 }
+
 .main-menu ul {
     display: -webkit-flex;
     display: flex;
@@ -29,20 +33,47 @@
     padding: 0;
     list-style: none;
 }
-.main-menu ul li:nth-child(n+1){
+
+.main-menu ul li:nth-child(n+1) {
     margin-left: 30px;
 }
-.header-contacts{
+
+.header-contacts {
     display: -webkit-flex;
     display: flex;
     align-items: center;
 }
-.header-contacts p{
+
+.header-contacts p {
     margin-right: 40px;
 }
-.header-bottom{
+
+.header-bottom {
     width: 165px;
     font-style: normal;
     font-size: 10px;
     line-height: 12px;
+}
+
+.header-light-1 {
+    height: 60px;
+    width: 60px;
+    left: 720px; /*868px - 720px = 148*/
+    top: -2px;
+    border-radius: 30px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+}
+
+.header-light-2 {
+    width: 259px;
+    height: 259px;
+    left: 454px;
+    top: -154px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+    z-index: 10;
 }
